@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity_hopon"
+    android:background="@drawable/bg5"
+    android:id="@+id/Drawer_field"
+
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            map:title="HOP-ON"
+            map:titleTextColor="@color/white"
+
+
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.appcompat.widget.SearchView
+
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="56dp"
+            android:background="#E4E2E2"
+            android:contextClickable="true"
+            android:keyboardNavigationCluster="true"
+            android:soundEffectsEnabled="true"
+            map:queryBackground="@color/places_autocomplete_prediction_primary_text_highlight"
+            map:queryHint="Search your Location"
+
+            map:searchIcon="@drawable/ic_baseline_search_24"
+            map:voiceIcon="@drawable/ic_baseline_mic_24">
+
+
+        </androidx.appcompat.widget.SearchView>
+
+        <androidx.appcompat.widget.SearchView
+
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:background="#E4E2E2"
+            android:contextClickable="true"
+            android:keyboardNavigationCluster="true"
+            android:soundEffectsEnabled="true"
+            map:queryBackground="@color/places_autocomplete_prediction_primary_text_highlight"
+            map:queryHint="Search your Destination"
+
+            map:searchIcon="@drawable/ic_baseline_search_24"
+            map:voiceIcon="@drawable/ic_baseline_mic_24">
+
+
+        </androidx.appcompat.widget.SearchView>
+
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="537dp"
+            android:layout_below="@+id/toolbar_field"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="70dp"
+            tools:context=".MapsActivity_hopon" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_menu"
+        map:menu="@menu/iconmenu"
+        map:headerLayout="@layout/nav_header"
+        android:layout_gravity="start"
+
+
+
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

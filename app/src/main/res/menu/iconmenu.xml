@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/home_field"
+     android:title="Home"
+     android:icon="@drawable/ic_baseline_home_24"
+     />
+
+    <item android:id="@+id/Rides_field"
+        android:title="Your rides"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item android:id="@+id/Setting_field"
+        android:title="Setting"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item android:id="@+id/about_field"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+</menu>

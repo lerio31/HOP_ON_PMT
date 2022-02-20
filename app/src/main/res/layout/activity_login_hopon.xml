@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_hopon"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="@drawable/bg5"
+    >
+
+
+
+    <TextView
+        android:id="@+id/rider_field"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="HOP-ON"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColorHint="@color/black"
+            android:hint="USERNAME"  />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        android:padding="20dp"
+
+        >
+     <com.google.android.material.textfield.TextInputEditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="textPassword"
+         android:textColorHint="@color/black"
+         android:hint="PASSWORD"
+
+
+         />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/forgot_p"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:elevation="5dp"
+        android:padding="10dp"
+        android:text="forgot password?"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:outlineSpotShadowColor="@color/black"
+
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+
+
+        android:id="@+id/login_field"
+        android:layout_width="206dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+
+
+        android:padding="10dp"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+
+        android:textSize="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Notregister_field"
+
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#E4E2E2"
+        android:padding="10dp"
+        android:text="Not register? Create an account"
+        android:textColor="@color/black"
+        android:textSize="11dp" />
+</LinearLayout>
+
+
+

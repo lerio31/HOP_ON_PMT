@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393852553368",
+    "project_id": "hop-on-pmt",
+    "storage_bucket": "hop-on-pmt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393852553368:android:d177dfb57c267bfcca68ed",
+        "android_client_info": {
+          "package_name": "com.mscode.hop_on_pmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393852553368-3iqn3tivc4d5l8egfjfi0l8mn39ijfkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHj3ArTDWUUpbwVFErJGtWFjnqOIYbBgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393852553368-3iqn3tivc4d5l8egfjfi0l8mn39ijfkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
